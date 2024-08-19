@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desty | App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+    </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-r from-violet-500 to-fuchsia-500 flex justify-center itmes-center h-100vh">
+  <div class="main-container w-10/12 my-20 bg-gray-50 p-9 rounded-3xl">
+    <div class="nav-container flex justify-between font-bold">
+        <div class="home-link">
+            <a href="#" class="ml-24 xl:tracking-widest text-2xl text-gray-900">@Des<span class="text-violet-500">T</span>y</a>
+        </div>
+        <nav class="flex justify-center items-center gap-16 text-gray-900">
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Testomonials</a>
+        </nav>
+        <button class="mr-24 bg-violet-500 px-8 py-3 rounded-3xl text-gray-50">Sign In</button>
+    </div>
+    <div class="hero-container bg-fixed bg-no-repeat bg-center bg-cover mx-auto rounded-3xl my-8 flex justify-center items-center" 
+        style="background-image:url('assests/mountains-adriatic-sea-cloudy-weather-dobrota-montenegro.jpg'); 
+        height: 400px;"> 
+        <div class="welcome-section p-9 max-w-2xl">
+            <h1 class="text-gray-50 text-4xl font-medium">Unleash the full potential of DesTy</h1>
+            <p class="text-gray-50 my-4">Desty is a versatile assistant that utilizes state-of-the-art natural language processing
+                to provide real-time support and assistance across various domains
+            </p>
+            <div class="btn-container flex justify-center items-center gap-4">
+                <button class="text-gray-50 bg-gray-900 px-6 py-2 rounded-xl font-medium">Get the App</button>
+                <button class="text-gray-50 bg-violet-500 px-6 py-2 rounded-2xl font-medium">more</button>    
+            </div>
+            <div class="reviews-section flex justify-center gap-8 items-center mt-8">
+                <div class="reviews">
+                    <h2 class="font-semibold text-gray-50 text-4xl">4.8</h2>
+                    <p class="text-gray-50 text-sm">Rating on Appstore</p>
+                </div>
+                <div class="downloads">
+                    <h2 class="text-gray-50 font-semibold text-gray-50 text-4xl">700K</h2>
+                    <p class="text-gray-50 text-sm">Active Users</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="second-container my-16">
+        <h1 class="text-gray-900 text-4xl font-semibold ml-24">Different Destinations</h1>
+       
+        <div class="flex gap-10 mx-24 mt-8">
+            <div class="destination-cards w-2/5">
+                <p>We explore the diverse ways in which this technology cab revolutionize work across various 
+                    industries and fields.
+                </p>
+                <div class="student-card bg-violet-500 h-96 bg-cover bg-center rounded-3xl mt-10 mb-6" style="background-image: url('/assests/young-student-woman-wearing-denim-jacket-eyeglasses-holding-colorful-folders-showing-thumb-up-pink.jpg');"></div>
+                <h2 class="text-gray-900 text-2xl font-semibold">Students</h2>
+            </div>
+            <div class="destination-cards w-2/5">
+                <p>We explore the diverse ways in which this technology cab revolutionize work across various 
+                    industries and fields.
+                </p>
+                <div class="student-card bg-violet-500 h-96 bg-cover bg-center rounded-3xl mt-10 mb-6" style="background-image: url('/assests/icons8-team-m0oSTE_MjsI-unsplash.jpg');";"></div>
+                <h2 class="text-gray-900 text-2xl font-semibold">Professionals</h2>
+            </div>
+            <div class="destination-cards w-2/5">
+                <p>We explore the diverse ways in which this technology cab revolutionize work across various 
+                    industries and fields.
+                </p>
+                <div class="student-card bg-violet-500 h-96 bg-center bg-cover rounded-3xl mt-10 mb-6" style="background-image: url('/assests/wallpaperflare.com_wallpaper.jpg');"></div>
+                <h2 class="text-gray-900 text-2xl font-semibold">Writers</h2>
+            </div>
+        </div>
+        <div class="destination-link-btn flex justify-center items-center">
+            <button class="bg-violet-500 text-gray-50 px-10 py-2 my-8 rounded-3xl font-semibold">And more than 50 other destinations </button>
+        </div>
+    </div>
+    
+  </div>
+</body>
+</html>
