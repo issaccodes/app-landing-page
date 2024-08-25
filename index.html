@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,15 +27,16 @@
 </head>
 <body class="bg-gradient-to-r from-violet-500 to-fuchsia-500 flex justify-center itmes-center h-100vh">
   <div class="main-container w-10/12 my-20 bg-gray-50 p-9 rounded-3xl">
+    
     <div class="nav-container flex justify-between font-bold">
         <div class="home-link">
             <a href="#" class="ml-24 xl:tracking-widest text-2xl text-gray-900">@Des<span class="text-violet-500">T</span>y</a>
         </div>
         <nav class="flex justify-center items-center gap-16 text-gray-900">
-            <a href="#">Home</a>
-            <a href="#">Features</a>
-            <a href="#">Pricing</a>
-            <a href="#">Testomonials</a>
+            <a href="index.html">Home</a>
+            <a href="#destination">Destinations</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#pricing">Pricing</a>
         </nav>
         <button class="mr-24 bg-violet-500 px-8 py-3 rounded-3xl text-gray-50">Sign In</button>
     </div>
@@ -64,7 +65,7 @@
         </div>
     </div>
 
-    <div class="second-container my-16">
+    <div id="destination" class="destination-container my-16">
         <h1 class="text-gray-900 text-4xl font-semibold ml-24">Different Destinations</h1>
        
         <div class="flex gap-10 mx-24 mt-8">
@@ -91,10 +92,117 @@
             </div>
         </div>
         <div class="destination-link-btn flex justify-center items-center">
-            <button class="bg-violet-500 text-gray-50 px-10 py-2 my-8 rounded-3xl font-semibold">And more than 50 other destinations </button>
+            <button class="bg-violet-500 text-gray-50 px-10 py-2 my-8 rounded-3xl font-semibold ">And more than 50 other destinations </button>
         </div>
     </div>
-    
+
+    <div id="testimonials" class="testimonial-section">
+      <h1 class="text-3xl font-semibold pl-24 text-gray-900">Testimonials</h1>
+      <div class="third-container flex justify-center items-center gap-8 my-10">
+        
+        <div class="review-1 h-60 w-96 p-9 bg-lime-200 rounded-2xl">
+          <p class="mb-6 text-gray-900">"Desty made planning my vacation a breeze! With personalized recommendations and an easy-to-use interface,
+            it helped me discover hidden gems I wouldn't have found otherwise."
+          </p>
+          <div class="reviewer-details flex itmes-center font-semibold text-xs gap-6">
+            <img src="/assests/man-3803551_1280.jpg" class="h-9 w-9 rounded-full" alt="Craig Jordan">
+            <p>Ehthan Brooks<br>Software Engineer, New York</p>
+          </div>
+        </div>
+
+        <div class="review-2 h-60 w-96 p-9 bg-violet-300 rounded-2xl">
+          <p class="mb-6 text-gray-900">"Choosing a destination was always stressful, but Desty changed that. The app’s suggestions were spot on,
+            and I loved how it considered my preferences. A must-have for every traveler!"
+          </p>
+          <div class="reviewer-details flex itmes-center font-semibold text-xs gap-6">
+            <img src="/assests/portrait-little-girl-white-t-shirt-puffer-vest-covering-mouth.jpg" class="h-9 w-9 rounded-full" alt="Craig Jordan">
+            <p>Sophia Mitchell<br>Graphic Designer, Singapore</p>
+          </div>
+        </div>
+      
+
+        <div class="review-3 h-60 w-96 p-9 bg-cyan-200 rounded-2xl">
+          <p class="mb-6 text-gray-900">"Desty simplifies travel planning with its intuitive design and accurate recommendations. It helped me find the perfect spot for my getaway, 
+          making the process enjoyable and hassle-free."
+          </p>
+          <div class="reviewer-details flex itmes-center font-semibold text-xs gap-6">
+            <img src="/assests/bohemian-man-with-his-arms-crossed.jpg" class="h-9 w-9 rounded-full" alt="Craig Jordan">
+            <p>Lucas Reynolds<br> Architect, Australia</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="second-review-container flex justify-center items-center gap-8 my-10">
+        
+        <div class="review-1 h-60 w-96 p-9 bg-lime-200 rounded-2xl">
+          <p class="mb-6 text-gray-900">"Desty made planning my vacation a breeze! With personalized recommendations and an easy-to-use interface,
+            it helped me discover hidden gems I wouldn't have found otherwise."
+          </p>
+          <div class="reviewer-details flex itmes-center font-semibold text-xs gap-6">
+            <img src="/assests/man-3803551_1280.jpg" class="h-9 w-9 rounded-full" alt="Craig Jordan">
+            <p>Ehthan Brooks<br>Software Engineer, New York</p>
+          </div>
+        </div>
+
+        <div class="review-2 h-60 w-96 p-9 bg-violet-300 rounded-2xl">
+          <p class="mb-6 text-gray-900">"Choosing a destination was always stressful, but Desty changed that. The app’s suggestions were spot on,
+            and I loved how it considered my preferences. A must-have for every traveler!"
+          </p>
+          <div class="reviewer-details flex itmes-center font-semibold text-xs gap-6">
+            <img src="/assests/portrait-little-girl-white-t-shirt-puffer-vest-covering-mouth.jpg" class="h-9 w-9 rounded-full" alt="Craig Jordan">
+            <p>Sophia Mitchell<br>Graphic Designer, Singapore</p>
+          </div>
+        </div>
+      
+
+        <div class="review-3 h-60 w-96 p-9 bg-cyan-200 rounded-2xl">
+          <p class="mb-6 text-gray-900">"Desty simplifies travel planning with its intuitive design and accurate recommendations. It helped me find the perfect spot for my getaway, 
+          making the process enjoyable and hassle-free."
+          </p>
+          <div class="reviewer-details flex itmes-center font-semibold text-xs gap-6">
+            <img src="/assests/bohemian-man-with-his-arms-crossed.jpg" class="h-9 w-9 rounded-full" alt="Craig Jordan">
+            <p>Lucas Reynolds<br> Architect, Australia</p>
+          </div>
+      </div>
+    </div>
+
+    <div id="pricing" class="pricing-container my-8">
+      <h1 class="ml-24 text-3xl font-semibold">Pricing</h1>
+      
+      <div class="plans flex justify-center itmes-center gap-6">
+        
+        <div class="stantard-plan border border-gray-300 rounded-2xl p-6 bg-gradient-to-b from-violet-200 to-gray-50">
+          <h1 class="mb-2 font-semibold text-gray-400">Stantard</h1>
+          <p class="mb-2 text-2xl font-semibold">Free</p>
+          <p>Number of Users: 1</p>
+          <p>Customer Support: Online</p>
+          <p>Monthly Requests: 1000</p>
+          <p>Data Packages: 1 GB</p>
+          <button class="bg-gradient-to-r from-violet-400 to-purple-500 text-gray-50 font-medium px-4 mt-4 rounded-2xl">Buy</button>
+        </div>
+
+        <div class="advanced-plan border border-gray-300 rounded-2xl p-6 bg-gradient-to-b from-violet-200 to-gray-50">
+          <h1 class="mb-2 text-pink-400 font-semibold">Advanced</h1>
+          <p class="mb-2 text-2xl font-semibold">$49</p>
+          <p>Number of Users: Up to 5</p>
+          <p>Customer Support: Pripority</p>
+          <p>Monthly Requests: 5000</p>
+          <p>Data Packages: 5 GB</p>
+          <button class="bg-gradient-to-r from-violet-400 to-purple-500 text-gray-50 font-medium px-4 mt-2 rounded-2xl">Buy</button>
+        </div>
+
+        <div class="premium-plan border border-gray-300 rounded-2xl p-6 bg-gradient-to-b from-violet-200 to-gray-50">
+          <h1 class="mb-2 text-violet-500 font-semibold">Premium</h1>
+          <p class="mb-2 text-2xl font font-semibold">$99</p>
+          <p>Number of Users: Unlimited</p>
+          <p>Customer Support: Premium</p>
+          <p>Monthly Requests: Unlimited</p>
+          <p>Data Packages: 10 GB</p>
+          <button class="bg-gradient-to-r from-violet-400 to-purple-500 text-gray-50 font-medium px-4 mt-2 rounded-2xl">Buy</button>
+        </div>
+
+      </div>
+    </div>
   </div>
 </body>
 </html>
